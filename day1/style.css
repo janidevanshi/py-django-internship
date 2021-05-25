@@ -1,0 +1,16 @@
+.body{
+    background-color: rgb(221, 219, 216);
+    padding: 5% 30%;
+}
+.body>form>p{
+    color: rgb(173, 20, 10);
+    font-size: large;
+
+}
+.body>form>h1{
+    color: brown;
+    font-size:xx-large;
+}
+.body>form>h2{
+    color: darkblue;
+}
