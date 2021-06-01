@@ -2,7 +2,7 @@
 from math import pi
 
 
-class cal2():
+class cal2:
     def setdata(self, r):
         self.r = r
 

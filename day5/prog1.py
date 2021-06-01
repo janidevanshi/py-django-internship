@@ -1,7 +1,7 @@
 # create a class cal1 that will calculate sum of three numbers. create setdata() method which has three parameters that contains numbers.create display() method that will calculate sum and display sum
 
 
-class cal1():
+class cal1:
     def setdata(self, x, y, z):
         self.x = x
         self.y = y
