@@ -1,0 +1,76 @@
+{% extends 'base.html' %}{% load static %}
+{% block servicesactive %}selected{% endblock servicesactive %}
+<!DOCTYPE html>
+<!-- Website Template by freewebsitetemplates.com -->
+
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+
+  <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" />
+</head>
+
+<body>
+  {% block content %}
+
+  <div id="body">
+    <div class="article">
+      <h2>
+        This is just a place holder, so you can see what the site would look
+        like.
+      </h2>
+      <div>
+        <a href="#" class="figure"><img src="{% static 'images/professionals.jpg' %}" alt="" /></a>
+        <span>Financial Advice</span>
+        <p>
+          We are the professional who provides financial services to clients based on their financial situation and help
+          them for achieve his goal of Business.
+        </p>
+      </div>
+      <div>
+        <a href="#" class="figure"><img src="{% static 'images/lawyers.jpg' %}" alt="" /></a>
+        <span>Business Guidance</span>
+        <p>
+          When business is good, it's time to expand. Find new funding, locations, and customers. Start consulting with
+          us for new Achievements in your Business
+        </p>
+      </div>
+    </div>
+    <div class="section">
+      <div class="featured">
+        <b>Strategy Consultant</b>
+
+        <p>
+          The term Strategy Consultant is used to describe consultants who operate at the highest level of the
+          consultancy market, with a focus on strategic topics like corporate and organisational strategy, economic
+          policy, government policy and functional strategy. For this reason, strategy consultants generally carry out
+          work assigned by top managers such as CxOs, directors and senior managers. Given that the nature of strategy
+          consulting differs from the other more implementation and operation driven areas, strategy consultants
+          generally have a different profile from their peers. Their focus lies more on quantitative/analytics skills,
+          and their job description revolves more around giving advice than overseeing implementation.
+        </p>
+      </div>
+      <div class="aside">
+        <div>
+          <h3>Management Consultant</h3>
+          <p>Management consultants, also known as business consultants or organisational advisors in practice, are
+            consultants who focus on all sorts of organisational concerns, from strategy to a variety of elements within
+            management. In the methodology upheld by Kennedy as well as Consultancy</p>
+        </div>
+        <div>
+          <h3>IT Consultant</h3>
+
+          <p>
+            Technology consultants, also known as IT, ICT, or digital consultants, focus on helping clients with the
+            development and application of Information Technology within their organisation. IT consultants focus
+            on transitions in the ICT-landscape, contrary to regular IT-employees.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endblock content %}
+</body>
+
+</html>

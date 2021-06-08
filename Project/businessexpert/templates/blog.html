@@ -1,0 +1,57 @@
+{% extends 'base.html' %} {% load static %}
+{% block blogactive %}selected{% endblock blogactive %}
+<!DOCTYPE HTML>
+<!-- Website Template by freewebsitetemplates.com -->
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css">
+</head>
+
+<body>
+	{% block content %}
+	<div id="body">
+		<div id="blog">
+			<p>
+				AR and VR
+				In 2021, Augmented Reality (AR) and Virtual Reality (VR) will be one of the main trends for mobile app
+				development. Why is it so? Simply because the consumers love it. Today, AR and VR are increasingly used
+				in gaming, hi-tech shop displays, healthcare, entertainment, and more. Suppose you want to design a
+				room. The engineers can produce various models in a matter of seconds. Google is about to introduce a
+				new AR feature for Google Maps. People can get directions from the camera phone in real-time.
+
+				According to Statista, the market size for AR and VR technology will rise close to 300 billion U.S.
+				dollars by 2024.
+
+				Does this number tell anything to you about app development? Surely, you don’t want to miss augmented
+				reality app development.
+			</p>
+			<img src="{% static 'images/presentation.jpg' %}" alt="">
+			<p>
+				Internet of Things (IoT)
+				Today smart homes, savvy health insurance plans are no more from the realm of science fiction but we see
+				them in real life every day. We witness an increase in demand for IoT gadgets and systems which,
+				naturally, will result in the increase of IoT apps.
+
+				According to Statista, the IoT market has seen a sharp increase from 2020 to 2021, with the expected
+				market value reaching $1.6 Trillion by 2025. We will see an increase in cloud platforms and a reduction
+				in the cost of sensors.
+
+				In short, we are living in a digital age. Today, everything is connected to the web that creates data to
+				be utilized and exploited using IoT-powered mobile apps.
+				This is the right time to invest some money to develop mobile wallet apps. Why? The answer is the
+				evolving e-commerce. The convenient e-wallets allow users to make payments simply by scanning a QR code
+				or entering the number of the payee. The transaction is done directly from your account to the payee’s
+				account. Of course, this is much easier for the users as the transactions have become super simple and
+				efficient.
+
+				According to the Payments Industry Intelligent report, by 2022, the forecast value for mobile payment
+				apps will reach nearly $14 trillion. The mobile-savvy nations are China, Norway, United Kingdom, Japan,
+				and Australia. Take a look at some of the stats.
+			</p>
+		</div>
+	</div>
+	{% endblock content %}
+
+</html>

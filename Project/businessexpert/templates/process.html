@@ -1,0 +1,80 @@
+{% extends 'base.html' %}{% load static %}
+{% block processactive %}selected{% endblock processactive %}
+<!DOCTYPE HTML>
+<!-- Website Template by freewebsitetemplates.com -->
+<html>
+
+<head>
+	<meta charset="UTF-8">
+
+	<link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css">
+</head>
+
+<body>
+	{% block content %}
+	<div id="body">
+		<div class="featured">
+			<img src="{% static 'images/reporting.jpg' %}" alt="">
+
+			<p>
+				Increasing consensus, commitment, learning, and future effectiveness are not proposed as substitutes for
+				the more customary purposes of management consulting but as desirable outcomes of any really effective
+				consulting process. The extent to which they can be built into methods of achieving more traditional
+				goals depends on the understanding and skill with which the whole consulting relationship is managed.
+				Such purposes have received more attention in organization development literature and in the writings of
+				behavioral consultants than in the field of management consulting. (For recommended reading in these
+				fields, see the sidebar, “Selected Readings.”) But behavioral objectives can best be achieved when
+				integrated with more traditional approaches. And clients have a right to expect that all management
+				consultants, whatever their specialty, are sensitive to human relationships and processes and skilled in
+				improving the organization’s ability to solve future as well as present problems.
+			</p>
+		</div>
+		<ul>
+			<li>
+				<div>
+					<h3> Providing Information</h3>
+				</div>
+				<div>
+					<p>
+						Perhaps the most common reason for seeking assistance is to obtain information. Compiling it may
+						involve attitude surveys, cost studies, feasibility studies, market surveys, or analyses of the
+						competitive structure of an industry or business. The company may want a consultant’s special
+						expertise or the more accurate, up-to-date information the firm can provide. Or the company may
+						be unable to spare the time and resources to develop the data internally.
+					</p>
+				</div>
+			</li>
+			<li>
+				<div>
+					<h3>Solving Problems</h3>
+				</div>
+				<div>
+					<p>Managers often give consultants difficult problems to solve. For example, a client might wish to
+						know whether to make or buy a component, acquire or divest a line of business, or change a
+						marketing strategy. Or management may ask how to restructure the organization to be able to
+						adapt more readily to change; which financial policies to adopt; or what the most practical
+						solution is for a problem in compensation, morale, efficiency, internal communication, control,
+						management succession, or whatever.</p>
+				</div>
+			</li>
+			<li>
+				<div>
+					<h3>Effective Diagnosis</h3>
+
+				</div>
+				<div>
+					<p>Much of management consultants’ value lies in their expertise as diagnosticians. Nevertheless,
+						the process by which an accurate diagnosis is formed sometimes strains the consultant-client
+						relationship, since managers are often fearful of uncovering difficult situations for which they
+						might be blamed. Competent diagnosis requires more than an examination of the external
+						environment, the technology and economics of the business, and the behavior of nonmanagerial
+						members of the organization. The consultant must also ask why executives made certain choices
+						that now appear to be mistakes or ignored certain factors that now seem important.</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+	{% endblock content %}
+</body>
+
+</html>
